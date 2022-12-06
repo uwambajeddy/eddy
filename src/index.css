@@ -12,6 +12,16 @@
   --white-color: #ffffff;
 }
 
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: -webkit-linear-gradient(282deg, #b33dfd 0%, #0043ff 100%);
+  border-radius: 7px;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
