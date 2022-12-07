@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 
 import { AppWrap } from "../../wrapper";
 import { images } from "../../constants";
+import Resume from "../../assets/resume.pdf";
 import "./Header.scss";
 
 const scaleVariants = {
@@ -37,6 +38,9 @@ const Header = () => (
           <p className="p-text">Web Developer</p>
           <p className="p-text">Freelancer</p>
         </div>
+        <a href={Resume} download>
+          <button type="button">DOWNLOAD CV</button>
+        </a>
       </div>
     </motion.div>
 
